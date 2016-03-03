@@ -1,0 +1,14 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./script.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+    }
+  }
+}
