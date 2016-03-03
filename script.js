@@ -1,4 +1,6 @@
 (function(){
+  
+  // Modified from https://github.com/geon/geon.github.com/blob/master/_posts/2016-03-03-dsxyliea.md
 
   var getTextNodesIn = function(el) {
       var nodes = [];
