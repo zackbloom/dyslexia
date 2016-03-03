@@ -4,7 +4,7 @@
 
   var getTextNodesIn = function(el) {
       var nodes = [];
-      console.log(el.childNodes, el.nodeType);
+  
       for (var i=el.childNodes.length; i--;){
         var current = el.childNodes[i];
         if (current.nodeType == 3)
@@ -17,7 +17,6 @@
   };
 
   var textNodes = getTextNodesIn(document.body);
-  console.log(textNodes);
 
   function isLetter(char) {
     return /^[\d]$/.test(char);
